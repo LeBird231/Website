@@ -1,0 +1,67 @@
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background: hsl(0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb{
+    background: hsl(100, 10%, 70%);
+
+    border-radius: 1vw;
+}
+
+.main{
+    padding-top: 40px;
+    width:  98vw;
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, Arial;
+    background-color: rgb(181, 237, 255);
+}
+
+.starter{
+    height: 93vh;
+    width:  1fr;
+    background-color: beige;
+
+    margin-bottom: 30px;
+}
+
+.about-me{
+    cursor: pointer;
+    display: flex; 
+    width:  1fr;
+    font-size: 30px;
+    display: table-row;
+    grid-template-rows: 70px 1fr;
+}
+
+.about-title{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+.description{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+}
+
+.about-image{ 
+    background-color: beige;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.about-text{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

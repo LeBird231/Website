@@ -1,0 +1,25 @@
+.header{
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgb(181, 237, 255);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);
+    font-family: Rubik, Arial;
+    font-size: 20px;
+}
+
+.Home{
+    margin-right: 10px;
+}
+
+.about-me-top{
+    margin-right: 10px;
+}
