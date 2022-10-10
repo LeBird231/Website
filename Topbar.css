@@ -4,22 +4,22 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgb(181, 237, 255);
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(228, 228, 228);
+    /* rgb(181, 237, 255) */
+    background-color: transparent;
     font-family: Rubik, Arial;
+    color: rgb(108, 108, 108);
     font-size: 20px;
+    padding-left: 30px;
 }
 
 .Home{
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 .about-me-top{
-    margin-right: 10px;
+    margin-right: 15px;
 }
