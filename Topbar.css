@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: left;
+    width: 1fr;
     left: 0;
     right: 0;
     top: 0;

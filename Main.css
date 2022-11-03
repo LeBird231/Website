@@ -1,6 +1,6 @@
 ::-webkit-scrollbar{
     width: 7px;
-    height: 0px;
+    height: 7px;
 }
 
 ::-webkit-scrollbar-track{
@@ -16,7 +16,7 @@
 .main{
     left: 0;
     margin-top: -10px;
-    width:  98vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     font-family: Rubik, Arial;
@@ -51,12 +51,13 @@
     padding-bottom: 5px;
 }
 
-.about-me{  
+.head{  
     display: flex; 
     width:  1fr;
     font-size: 30px;
     display: table-row;
     grid-template-rows: 70px 1fr;
+    margin-bottom: 50px;
 }
 
 .about-title{
@@ -73,7 +74,6 @@
 }
 
 .about-image{ 
-    background-color: beige;
     width: 100%;
     display: block;
     border-radius: 5px;
